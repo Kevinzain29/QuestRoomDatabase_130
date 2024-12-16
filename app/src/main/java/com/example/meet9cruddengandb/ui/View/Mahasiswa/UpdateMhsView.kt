@@ -28,6 +28,7 @@ fun UpdateMhsView(
     onNavigate: () -> Unit,
     modifier: Modifier = Modifier,
     viewmodel: UpdateMhsViewModel = viewModel(factory = PenyediaViewModel.Factory)
+    //inisialisasi ViewModel
 ){
     val uiState = viewmodel.updateUIState
     val snackbarHostState = remember { SnackbarHostState() }
@@ -82,7 +83,7 @@ fun UpdateMhsView(
                         }
                     }
                 }
-            )
+            )//
         }
 
     }
