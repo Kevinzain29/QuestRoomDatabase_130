@@ -30,7 +30,7 @@ fun UpdateMhsView(
     viewmodel: UpdateMhsViewModel = viewModel(factory = PenyediaViewModel.Factory)
     //inisialisasi ViewModel
 ){
-    val uiState = viewmodel.updateUIState
+    val uiState = viewmodel.updateUIState //ambil UI state dari ViewModel
     val snackbarHostState = remember { SnackbarHostState() }
     val coroutineScope = rememberCoroutineScope()
 
