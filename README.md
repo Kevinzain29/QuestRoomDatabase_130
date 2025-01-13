@@ -11,6 +11,10 @@ HalamanDelete
 hasil delete
 ![image](https://github.com/user-attachments/assets/0ad3194d-34c6-4774-9a99-137d6da9e66e)
 
+![image](https://github.com/user-attachments/assets/c697f275-cc61-4897-9be5-b7b4cc48e687)
+
+
+
 
 
 
